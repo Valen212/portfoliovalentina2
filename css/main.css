@@ -1,0 +1,163 @@
+.p {
+  font-size: red;
+  background: red;
+}
+
+.main {
+  width: 100%;
+}
+
+.main.__block--size {
+  min-height: 690px;
+  padding: 30px;
+}
+
+.portfolio {
+  width: 100%;
+}
+
+.portfolio.__block--size {
+  min-height: 690px;
+  padding: 30px;
+}
+
+.portfolio.__block--color {
+  background-color: #e0c39d;
+}
+
+.portfolio.__block--color.__text--color {
+  color: black !important;
+}
+
+.about {
+  width: 100%;
+}
+
+.about.block--size {
+  width: 100%;
+  min-height: 500px;
+  padding: 30px;
+}
+
+.about.__block--image {
+  background: url("/images/about-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.about.__text--color {
+  color: white !important;
+}
+
+.cv {
+  width: 100%;
+}
+
+.cv.block--size {
+  min-height: 500px;
+  padding: 30px;
+}
+
+.cv.block--size.__block--color {
+  background-color: white !important;
+}
+
+.cv.block--size.__block--color.__text--color {
+  color: black;
+}
+
+.contact {
+  width: 100%;
+}
+
+.contact.block--size {
+  min-height: 500px;
+  padding: 30px;
+}
+
+.contact.__text--color {
+  color: white !important;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer.block--size {
+  min-height: 165;
+  padding: 30px;
+}
+
+.footer.block--size.__block--color {
+  background-color: #e0c39d;
+}
+
+.footer.block--size.__block--color.__text--color {
+  color: black;
+}
+
+.main__block--image {
+  background: url("/images/main-background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.about__image {
+  width: 300px;
+  height: 450px;
+  background: url("/images/about-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about__image:hover {
+  transition: .5s ease;
+  background: url("/images/about2-image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact--image {
+  background: url("/images/contact-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__text--color {
+  color: white !important;
+}
+
+.main__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 22%;
+  width: 50%;
+  margin: -8% 0 0 -25%;
+  background-color: #f8f9fa38;
+  border-radius: 6px;
+}
+
+.main__text.main__text--color {
+  color: white !important;
+}
+
+.__img--padding {
+  padding: 5px 25px !important;
+}
+
+.block--type {
+  background-color: #ffffff29;
+  border-radius: 6px;
+  padding: 30px;
+}
+
+.cv--padding {
+  padding: 5px !important;
+}
