@@ -1,3 +1,7 @@
+.p {
+  font-size: red;
+  background: red;
+}
 
 .main {
   width: 100%;
@@ -36,7 +40,7 @@
 }
 
 .about.__block--image {
-  background: url("/images/about-background.jpg");
+  background: url("../../images/about-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -95,7 +99,7 @@
 }
 
 .main__block--image {
-  background: url("/images/main-background2.jpg");
+  background: url("../../images/main-background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -105,20 +109,20 @@
 .about__image {
   width: 300px;
   height: 450px;
-  background: url("/images/about-image.jpg");
+  background: url("../../images/about-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .about__image:hover {
   transition: .5s ease;
-  background: url("/images/about2-image.jpeg");
+  background: url("../../images/about2-image.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .contact--image {
-  background: url("/images/contact-background.jpg");
+  background: url("../../images/contact-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
